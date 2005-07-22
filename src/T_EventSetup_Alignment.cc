@@ -8,7 +8,7 @@
 //
 // Author:      Chris Jones
 // Created:     Mon Apr 18 16:42:52 EDT 2005
-// $Id: T_Context_Pedestals.cc,v 1.1 2005/04/23 17:51:45 innocent Exp $
+// $Id: T_Context_Alignment.cc,v 1.1 2005/07/22 10:09:57 xiezhen Exp $
 //
 
 // system include files
@@ -18,4 +18,4 @@
 #include "FWCore/Framework/interface/eventsetupdata_registration_macro.h"
 
 //using Alignments;
-CONTEXT_DATA_REG(Alignments);
+EVENTSETUP_DATA_REG(Alignments);
